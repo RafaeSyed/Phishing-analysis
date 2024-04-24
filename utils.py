@@ -2,7 +2,8 @@ import imports
 
 #Data Loading - arff file type
 
-data, meta = imports.arff.loadarff('/Users/ali/Downloads/phishing+websites/Training Dataset.arff')
+data, meta = imports.arff.loadarff('./Training Dataset.arff')
+print(meta)
 
 # DataFrame type change from byte code to numeric
 
